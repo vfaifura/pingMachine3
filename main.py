@@ -14,7 +14,7 @@ def webHook(connectionStatus):
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
 
-    text = "Time: " + current_time + "\n *Network status*: " + connectionStatus
+    text = "*Time*: " + current_time + "\n *Network status*: " + connectionStatus
     bot_message = {
         'text': text
     }
