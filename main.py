@@ -37,7 +37,7 @@ while(True):
             connectionStatus = "ON :)"
             return connectionStatus
         else:
-            connectionStatus = "<font color='red'>DOWN"
+            connectionStatus = "TEST"
             return connectionStatus
     webHook(checkConnection())
     time.sleep(300)
