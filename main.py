@@ -37,7 +37,7 @@ while(True):
             connectionStatus = "ON :)"
             return connectionStatus
         else:
-            connectionStatus = "DOWN -_-"
+            connectionStatus = "DOWN -_- /flowerbeam"
             return connectionStatus
     webHook(checkConnection())
     time.sleep(300)
