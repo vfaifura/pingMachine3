@@ -34,10 +34,10 @@ while(True):
         x = requests.get('https://cd55-188-163-32-2.ngrok.io/')
        # print(x.status_code)
         if x.status_code == 502:
-            connectionStatus = "ON :)"
+            connectionStatus = "ONLINE 🟢🤩🥳"
             return connectionStatus
         else:
-            connectionStatus = "DOWN 😀"
+            connectionStatus = "DOWN 😡💥🤯"
             return connectionStatus
     webHook(checkConnection())
     time.sleep(300)
