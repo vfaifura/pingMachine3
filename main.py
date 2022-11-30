@@ -41,3 +41,4 @@ while(True):
             connectionStatus = "DOWN 🔴"
             return connectionStatus
     webHook(checkConnection())
+    time.sleep(300)
