@@ -1,4 +1,3 @@
-import psutil
 import requests as requests
 from json import dumps
 from httplib2 import Http
