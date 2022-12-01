@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import requests as requests
 from json import dumps
 from httplib2 import Http
@@ -31,7 +33,7 @@ def webHook(connectionStatus):
 
 while(True):
     def checkConnection():
-        x = requests.get('https://75db-93-77-254-210.eu.ngrok.io')
+        x = requests.get('https://b3ca-93-77-254-210.eu.ngrok.io')
        # print(x.status_code)
         if x.status_code == 502:
             connectionStatus = "ONLINE 🟢🤩🥳"
