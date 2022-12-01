@@ -31,7 +31,7 @@ def webHook(connectionStatus):
 
 while(True):
     def checkConnection():
-        x = requests.get('https://a9a3-188-163-32-24.ngrok.io')
+        x = requests.get('https://75db-93-77-254-210.eu.ngrok.io')
        # print(x.status_code)
         if x.status_code == 502:
             connectionStatus = "ONLINE 🟢🤩🥳"
