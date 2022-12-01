@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import requests as requests
 from json import dumps
 from httplib2 import Http
@@ -11,7 +9,7 @@ def webHook(connectionStatus):
     """Hangouts Chat incoming webhook."""
     url = 'https://chat.googleapis.com/v1/spaces/AAAA76hEQeY/messages?key=' \
           'AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=' \
-          'NT7xOG4gb04kzTAiBm0hfGd4eo6K7CV8Waq_H4STs4E%3D'
+          'vHjHhLP_PN7DB50US9McENEVoF1ra4PSxLhzUzaDgXU%3D'
 
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
